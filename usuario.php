@@ -1,8 +1,8 @@
 <?php
 
 $nome = "Victor rodrigues";
-$email = "victor@alura.com.br";
-$senha = "í";
+$email = " victor@alura.com.br ";
+$senha = "íííí";
 
 if (strlen($senha)< 8) {
     echo "Senha insegura"  . PHP_EOL;
@@ -24,3 +24,5 @@ echo 'Sobrenome:' . $sobrenome . PHP_EOL;
 
 $csv = 'Victor Dias,15,victor@alura.com.br';
 var_dump(explode(',', $csv));
+
+echo trim($email) . PHP_EOL;
