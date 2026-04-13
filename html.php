@@ -1,6 +1,7 @@
 <?php
 
-$nome = 'cam" /> <script>alert("teste");</script>';    
+
+$nome = 'cam" /> <script>alert("teste");</script>';   
 ?>
 
 
