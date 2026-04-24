@@ -17,20 +17,24 @@ $novosAlunos = [
 
 $alunos2026 = [...$alunos2025, 'Miguelito', ...$novosAlunos];
 array_push($alunos2026, 'Alice', 'Bob', 'Charlie');
-$alunos2022[] = 'Luiz';
+$alunos2026[] = 'Luiz';
 
 array_unshift($alunos2026, 'Stephane', 'Rafaela');
 
-echo array_shift($alunos2026);
+echo array_shift($alunos2026) . PHP_EOL;
+echo array_pop($alunos2026) . PHP_EOL;
 
 var_dump($alunos2026);
 
+$alunos2027 = [...$alunos2026, 'Fernando', 'Carlos'];
 
-// funcao(...[1, 2, 3]);
+array_push($alunos2027, 'Bruna', 'Juliana');
+$alunos2027[] = 'Marcos';
 
-// function funcao(int $a, int $b, int $c)
-/* {
+array_unshift($alunos2027, 'Beatriz', 'Camila');
 
-}*/
+echo array_shift($alunos2027) . PHP_EOL;
+echo array_pop($alunos2027) . PHP_EOL;
 
-// var_dump($alunos2026 = array_merge($alunos2025, $novosAlunos)) . PHP_EOL;
+echo "Lista final de alunos 2027:" . PHP_EOL;
+var_dump($alunos2027);
